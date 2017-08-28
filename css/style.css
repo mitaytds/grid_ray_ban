@@ -95,3 +95,16 @@ footer{
 .menu li{
 	display: inline-block;
 }
+.form_search{
+	display: inline-block;
+	float: right;
+}
+.form_search input:nth-of-type(1){
+	display: none;
+}
+.form_search input:nth-of-type(2){
+	border: none;
+}
+.form_search label{
+	vertical-align: middle;
+}
