@@ -116,6 +116,7 @@ a{
 	float: right;
 }
 .form_search input{
+	background: rgb(0, 0, 0, 0);
 	border: none;
 }
 .form_search button{
