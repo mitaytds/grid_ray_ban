@@ -65,6 +65,7 @@ button{
 }
 a{
 	text-decoration: none;
+	color: #65a0b8;
 }
 /*GRID*/
 .wrapper{
@@ -110,6 +111,9 @@ a{
 }
 .nav{
 	display: inline-block;
+}
+.nav a{
+	margin: 0 40px 0 40px;
 }
 .form_search{
 	display: inline-block;
