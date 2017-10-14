@@ -42,6 +42,10 @@ table {
 	border-spacing: 0;
 }
 /*BASE*/
+@font-face{
+	font-family: 'Helvetica Neue';
+	src: url(../fonts/HelveticaNeue-Medium.otf);
+}
 body{
 	font-size: 16px;
 	background: repeating-linear-gradient(to left top, rgba(67, 75, 84, 1) 50%, rgba(82, 91, 100, 1) 50%);
