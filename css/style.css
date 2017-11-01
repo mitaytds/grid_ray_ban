@@ -154,6 +154,9 @@ a{
 	display: inline-block;
 	margin-bottom: 20px;
 }
+.content{
+	position: relative;
+}
 .content p{
 	width: 48%;
 }
@@ -165,4 +168,9 @@ a{
 }
 .thing_buy_photo img:nth-child(2){
 
+}
+.logo_2{
+	position: absolute;
+	top: 40px;
+	right: 40px;
 }
