@@ -81,7 +81,7 @@ h1{
 }
 p{
 	font-size: 14px;
-	line-height: 2;
+	line-height: 1.7723;
 	color: #737373;
 }
 a{
@@ -104,6 +104,7 @@ a{
 	background-image: url("../images/article_bg.png");
 	background-repeat: no-repeat;
 	background-position: 100% 0;
+	background-size: contain;
 }
 .thing_buy{
 	grid-column: 1/2;
@@ -158,13 +159,13 @@ a{
 }
 .logo{
 	display: inline-block;
-	margin-bottom: 20px;
+	margin-bottom: 24px;
 }
 .content{
 	position: relative;
 }
 .content p{
-	width: 48%;
+	width: 44%;
 }
 .thing_buy_photo{
 	position: relative;
@@ -181,8 +182,20 @@ a{
 	right: 40px;
 }
 .content span{
-	float: right;
+	position: absolute;
+	bottom: 20px;
+	right: 30px;
 	font-family: 'Altemate Gothic';
 	color: #fff;
 	font-size: 72px;
+}
+.content button{
+	width: 152px;
+	height: 42px;
+	background:  linear-gradient(to left bottom, #4ea25d, #69b076);
+	font-size: 14px;
+	color: #fff;
+	margin-top: 50px;
+	border: none;
+
 }
