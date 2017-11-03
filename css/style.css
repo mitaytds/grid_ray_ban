@@ -167,15 +167,6 @@ a{
 .content p{
 	width: 44%;
 }
-.thing_buy_photo{
-	position: relative;
-}
-.thing_buy_photo img:nth-child(1){
-	width: 100%;
-}
-.thing_buy_photo img:nth-child(2){
-
-}
 .logo_2{
 	position: absolute;
 	top: 40px;
@@ -198,4 +189,27 @@ a{
 	margin-top: 50px;
 	border: none;
 
+}
+
+.thing_buy_photo{
+	width: 100%;
+	height: 240px;
+	background: url('../images/product image.png') no-repeat;
+	background-size: cover;
+}
+.thing_buy_photo img{
+	background-image: url("../images/vans logo.png");
+	float: right;
+	width: 80px;
+	height: 80px;
+	margin-top: 160px;
+}
+.thing_buy span{
+}
+.thing_buy select{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+ 	appearance: none;
+	border: none;
+	color: #65a0b8;
 }
