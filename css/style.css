@@ -88,10 +88,10 @@ a{
 	color: #65a0b8;
 }
 .button{
-	display: table-cell;
+	display: inline-block;
 	text-align: center;
-	vertical-align: middle;
 	font-family: 'Helvetica Neue';
+	color: #fff;
 	font-weight: bold;
 	border-radius: 2px;
 }
@@ -192,10 +192,8 @@ a{
 .content_button{
 	width: 152px;
 	height: 42px;
-	background:  linear-gradient(to left bottom, #4ea25d, #69b076);
+	background:  linear-gradient(to left bottom, #7bc488, #51a460);
 	font-size: 14px;
-	color: #fff;
-	border: none;
 }
 .product_photo{
 	position: relative;
@@ -237,6 +235,5 @@ a{
 	height: 30px;
 	bottom: 20px;
 	right: 30px;
-	color: #fff;
-	background:  linear-gradient(to left bottom, #66a1b9, #7fbbd3);
+	background:  linear-gradient(to left bottom, #8ec9e0, #66a1b9);
 }
