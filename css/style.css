@@ -74,6 +74,10 @@ h1{
 	font-weight: bold;
 	padding: 21px 0 21px 0;
 }
+h2{
+	font-size: 21px;
+	font-weight: bold;
+}
 p{
 	font-size: 14px;
 	line-height: 1.7723;
@@ -109,7 +113,7 @@ a{
 	background-position: 100% 0;
 	background-size: contain;
 }
-.thing_buy{
+.product{
 	grid-column: 1/2;
 }
 .chart{
@@ -193,25 +197,46 @@ a{
 	color: #fff;
 	border: none;
 }
-.thing_buy_photo{
+.product_photo{
+	position: relative;
 	width: 100%;
 	height: 240px;
-	background: url('../images/product image.png') no-repeat;
-	background-size: cover;
 }
-.thing_buy_photo img{
-	background-image: url("../images/vans logo.png");
-	float: right;
-	width: 80px;
-	height: 80px;
-	margin-top: 160px;
+.product_photo_loogo-brand{
+	position: absolute;
+	bottom: 0;
+	right: 0;
 }
-.thing_buy span{
+.product_description{
+	position: relative;
+	font-size: 12px;
+	padding: 20px 30px 20px 30px;
 }
-.thing_buy select{
+.product_description>span{
+	display: inline-block;
+	margin: 12px 0;
+}
+.product_description_color{
+	color: #444444;
+}
+.product select{
+	display: inline;
 	-webkit-appearance: none;
 	-moz-appearance: none;
  	appearance: none;
 	border: none;
 	color: #65a0b8;
+}
+.product_description_price{
+	font-size: 28px;
+	margin: 25px 0 0 0 !important;
+}
+.product_buttom{
+	position: absolute;
+	width: 110px;
+	height: 30px;
+	bottom: 20px;
+	right: 30px;
+	color: #fff;
+	background:  linear-gradient(to left bottom, #66a1b9, #7fbbd3);
 }
