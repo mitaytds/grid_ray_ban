@@ -95,6 +95,10 @@ a{
 	font-weight: bold;
 	border-radius: 2px;
 }
+.button span{
+	display: inline-block;
+	margin-top: 8.5%;
+}
 /*GRID*/
 .wrapper{
 	display: grid;
@@ -236,4 +240,8 @@ a{
 	bottom: 20px;
 	right: 30px;
 	background:  linear-gradient(to left bottom, #8ec9e0, #66a1b9);
+}
+.nav_item a:hover{
+	border-bottom: 3px solid black;
+	padding-bottom: 10px;
 }
