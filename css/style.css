@@ -83,17 +83,23 @@ a{
 	text-decoration: none;
 	color: #65a0b8;
 }
-.button{
-	display: inline-block;
-	text-align: center;
+button{
+	width: 110px;
+	height: 30px;
 	font-family: 'Helvetica Neue';
+	font-size: 10px;
 	color: #fff;
-	font-weight: bold;
+	border: none;
 	border-radius: 2px;
 }
-.button span{
+.barbell{
+	border-left: 1px solid grey;
+	height: 40px;
 	display: inline-block;
-	margin-top: 8.5%;
+	vertical-align: middle;
+}
+.currency-sign:before{
+	content: '£';
 }
 /*GRID*/
 .wrapper{
@@ -133,12 +139,6 @@ a{
 .header span{
 	margin-right: 30px;
 	font-weight: bold;
-}
-.barbell{
-	border-left: 1px solid grey;
-	height: 40px;
-	display: inline-block;
-	vertical-align: middle;
 }
 .nav{
 	display: inline-block;
@@ -192,12 +192,22 @@ a{
 	font-size: 72px;
 }
 .content_button{
+	display: inline-block;
 	width: 152px;
 	height: 42px;
-	background:  linear-gradient(to left bottom, #7bc488, #51a460);
+	text-align: center;
+	font-family: 'Helvetica Neue';
+	color: #fff;
 	font-size: 14px;
+	font-weight: bold;
+	border-radius: 2px;
+	background:  linear-gradient(to left bottom, #7bc488, #51a460);
 }
-	/* Section "section -> content"*/
+.content_button span{
+	display: inline-block;
+	margin-top: 8.5%;
+}
+	/* Section "section -> product"*/
 .product_photo{
 	position: relative;
 	width: 100%;
@@ -222,7 +232,7 @@ a{
 	font-weight: bold;
 }
 .product_description > span{
-	display: inline-block;
+	display: block;
 	margin: 12px 0;
 }
 .product_description_color{
@@ -244,8 +254,6 @@ a{
 }
 .product_buttom{
 	position: absolute;
-	width: 110px;
-	height: 30px;
 	bottom: 20px;
 	right: 30px;
 	background:  linear-gradient(to left bottom, #8ec9e0, #66a1b9);
