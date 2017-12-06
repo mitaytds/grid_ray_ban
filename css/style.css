@@ -263,7 +263,28 @@ button{
 	background:  linear-gradient(to left bottom, #8ec9e0, #66a1b9);
 }
 	/* Section "canvas -> map>"*/
-	/* Section "section -> shopping_list"*/
+.google_map{
+	width: 100%;
+	height: 328px;
+	background-image: url('../images/map_pin.png');
+	background-size: cover;
+}
+.map_name-point{
+	padding: 20px 30px;
+}
+.map_name-point span:first-child{
+	display: inline-block;
+	font-size: 21px;
+	font-weight: bold;
+	line-height: 0.61;
+}
+.map_name-point span:last-child{
+	display: inline-block;
+	font-size: 12px;
+	font-weight: lighter;
+	line-height: 0.61;
+}
+/* Section "section -> shopping_list"*/
 .shopping-bag span:first-child{
 	display: inline-block;
 	font-size: 21px;
