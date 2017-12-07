@@ -96,9 +96,9 @@ button{
 	border-radius: 2px;
 }
 .barbell{
-	border-left: 1px solid grey;
-	height: 40px;
 	display: inline-block;
+	height: 40px;
+	border-left: 1px solid grey;
 	vertical-align: middle;
 }
 .currency-sign:before{
@@ -137,6 +137,7 @@ button{
 }
 .footer{
 	grid-column: 1/4;
+	padding: 13px 50px 13px 50px;
 }
 /*PRODJECT*/
 	/*header*/
@@ -262,28 +263,7 @@ button{
 	right: 30px;
 	background:  linear-gradient(to left bottom, #8ec9e0, #66a1b9);
 }
-	/* Section "canvas -> map>"*/
-.google_map{
-	width: 100%;
-	height: 328px;
-	background-image: url('../images/map_pin.png');
-	background-size: cover;
-}
-.map_name-point{
-	padding: 20px 30px;
-}
-.map_name-point span:first-child{
-	display: inline-block;
-	font-size: 21px;
-	font-weight: bold;
-	line-height: 0.61;
-}
-.map_name-point span:last-child{
-	display: inline-block;
-	font-size: 12px;
-	font-weight: lighter;
-	line-height: 0.61;
-}
+
 /* Section "section -> shopping_list"*/
 .shopping-bag span:first-child{
 	display: inline-block;
@@ -341,7 +321,83 @@ button{
 	float: right;
 	background:  linear-gradient(to left bottom, #f6a312, #e98f13);
 }
-/* .nav_item a:hover{
+	/* Section "section" -> map>"*/
+.google_map{
+	width: 100%;
+	height: 328px;
+	background-image: url('../images/map_pin.png');
+	background-size: cover;
+}
+.map_name-point{
+	padding: 20px 30px;
+}
+.map_name-point span:first-child{
+	display: inline-block;
+	font-size: 21px;
+	font-weight: bold;
+	line-height: 0.61;
+}
+.map_name-point span:last-child{
+	display: inline-block;
+	font-size: 12px;
+	font-weight: lighter;
+	line-height: 0.61;
+}
+/* footer */
+.footer span{
+	display: inline-block;
+	font-size: 12px;
+	margin: 5px 40px 0 0;
+}
+.footer div{
+	height: 13px;
+}
+.footer_share{
+	float: right;
+}
+.footer_share li{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	margin-top: 2px;
+	margin-left: 5px;
+	background-repeat: no-repeat;
+}
+.twitter{
+	background-image: url('../images/Twitter.png');
+}
+.facebook{
+	background-image: url('../images/Facebook.png');
+	background-position: center;
+	margin-bottom: 2px;
+}
+.vimeo{
+	background-image: url('../images/Vimeo.png');
+}
+.pinterest{
+	background-image: url('../images/Pinterest.png');
+	margin-bottom: 1px;
+}
+.twitter:hover{
+	background-image: url('../images/twitter_a.png');
+}
+.facebook:hover{
+	background-image: url('../images/facebook_a.png');
+	background-position: center;
+	margin-bottom: 2px;
+}
+.vimeo:hover{
+	background-image: url('../images/vimeo_a.png');
+}
+.pinterest:hover{
+	background-image: url('../images/pinterest_a.png');
+	margin-bottom: 1px;
+}
+.nav_item a:hover{
 	border-bottom: 3px solid black;
 	padding-bottom: 10px;
-} */
+}
+.nav_item a:active{
+	border-bottom: 3px solid grey;
+	padding-bottom: 10px;
+}
