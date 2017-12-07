@@ -220,7 +220,7 @@ button{
 	display: inline-block;
 	margin-top: 8.5%;
 }
-	/* Section "section -> product"*/
+	/* Section "section" -> product" */
 .product_photo{
 	position: relative;
 	width: 100%;
@@ -240,9 +240,10 @@ button{
 	font-size: 12px;
 	padding: 20px 30px 20px 30px;
 }
-.product_description_name{
+.product .product_description_name{
 	font-size: 21px;
 	font-weight: bold;
+	margin: 0;
 }
 .product_description > span{
 	display: block;
@@ -260,10 +261,17 @@ button{
 	color: #65a0b8;
 }
 .product_description_size{
-	margin-bottom: 25px;
+	margin-bottom: 16px;
 }
-.product_description_price{
+.product_description_size > span{
+	display: inline;
+	color: #444444;
+	font-size: 12px;
+}
+.product .product_description_price{
 	font-size: 28px;
+	color: #000;
+	margin: 0;
 }
 .product_buttom{
 	position: absolute;
@@ -271,6 +279,7 @@ button{
 	right: 30px;
 	background:  linear-gradient(to left bottom, #8ec9e0, #66a1b9);
 }
+/* Section "section" -> chort*/
 
 /* Section "section -> shopping_list"*/
 .shopping-bag span:first-child{
@@ -347,6 +356,7 @@ button{
 .map_name-point span:last-child{
 	display: block;
 	font-size: 12px;
+	color: #444444;
 	font-weight: lighter;
 	line-height: 0.9;
 }
