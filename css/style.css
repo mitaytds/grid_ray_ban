@@ -157,6 +157,14 @@ button{
 	color: #737373;
 	margin: 0 20px 0 20px;
 }
+.nav_item a:hover{
+	border-bottom: 3px solid black;
+	padding-bottom: 10px;
+}
+.nav_item a:active{
+	border-bottom: 3px solid grey;
+	padding-bottom: 10px;
+}
 .form_search{
 	display: inline-block;
 	float: right;
@@ -392,12 +400,4 @@ button{
 .pinterest:hover{
 	background-image: url('../images/pinterest_a.png');
 	margin-bottom: 1px;
-}
-.nav_item a:hover{
-	border-bottom: 3px solid black;
-	padding-bottom: 10px;
-}
-.nav_item a:active{
-	border-bottom: 3px solid grey;
-	padding-bottom: 10px;
 }
