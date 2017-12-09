@@ -76,7 +76,7 @@ h1{
 }
 p{
 	font-size: 14px;
-	line-height: 1.7723;
+	line-height: 1.774;
 	color: #737373;
 }
 a{
@@ -301,7 +301,8 @@ canvas{
 }
 .chart_sales div{
 	display: inline-block;
-	width: 235px;
+	width: 32.7777%;
+	height: 63px;
 	text-align: center;
 	border-right: 1px solid #d8d8d8;
 }
