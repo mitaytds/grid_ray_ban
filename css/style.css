@@ -108,7 +108,7 @@ button{
 .wrapper{
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 40px;
+	grid-gap: 60px;
 	grid-auto-rows: minmax(50px, auto);
 }
 .header{
