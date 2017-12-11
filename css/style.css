@@ -54,7 +54,7 @@ body{
 	font-family: 'Helvetica Neue', sans-serif;
 	font-size: 16px;
 	background: repeating-linear-gradient(to left top, rgba(67, 75, 84, 1) 50%, rgba(82, 91, 100, 1) 50%);
-	padding: 90px;
+	padding: 70px;
 }
 header{
 	background: #f5f5f5;
@@ -108,7 +108,7 @@ button{
 .wrapper{
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
-	grid-gap: 55px;
+	grid-gap: 40px;
 	grid-auto-rows: minmax(50px, auto);
 }
 .header{
@@ -211,7 +211,7 @@ button{
 	top: 40px;
 	right: 40px;
 }
-.content>span{
+.content > span{
 	position: absolute;
 	bottom: 20px;
 	right: 30px;
@@ -346,6 +346,10 @@ canvas{
 	font-weight: bolder;
 	margin: 10px 0 5px 0;
 }
+.shopping-bag_list{
+	height: 290px;
+	overflow-x: hidden;
+}
 .shopping-bag li{
 	position: relative;
 	display: flex;
@@ -466,13 +470,22 @@ canvas{
 	background-image: url('../images/pinterest_a.png');
 	margin-bottom: 1px;
 }
-/* screen up to 1300px */
-@media (max-width: 1300px){
+/* screen up to 13ds00px */
+@media (min-width: 1681px){
 	body{
-		padding: 70px;
+		padding: 90px;
 	}
 	.wrapper{
-		grid-gap: 40px;
+		grid-gap: 55px
+	}
+	.content p{
+		margin-bottom: 100px;
+	}
+	.product_photo{
+		height: 335px;
+	}
+	canvas{
+		height: 390px;
 	}
 }
 /* screen up to 1200px */
@@ -500,41 +513,56 @@ canvas{
 }
 /* screen up to 960px */
 @media (max-width: 960px){
+	body{
+		padding: 0;
+	}
+	.wrapper{
+		grid-gap: 1px;
+		grid-auto-rows: auto;
+		box-shadow: none;
+	}
 	.header{
-		grid-column: 1/4;
-		padding: 20px;
+		width: 100%;
+		position: fixed;
+		z-index: 99;
+		padding: 0;
 	}
 	.content{
-		grid-column: 1/4;
-		background-image: url("../images/article_bg.png");
-		background-repeat: no-repeat;
-		background-position: 100% 0;
-		background-size: contain;
+		background-size: 80% 100%;
+		background-position: 140% 10%;
 	}
 	.product{
 		grid-column: 1/4;
+		box-shadow: none;
 	}
 	.chart{
 		grid-column: 1/4;
 		position: relative;
+		box-shadow: none;
 	}
 	.shopping-bag{
 		grid-column: 1/4;
 		padding: 20px 30px;
+		box-shadow: none;
 	}
 	.map{
 		grid-column: 1/4;
 	}
-	.footer{
-		grid-column: 1/4;
-		padding: 13px 50px 13px 50px;
-	}
 	.header span,
 	.nav,
-	.header > div{
+	.header > div,
+	.content > span:last-child,
+	.logo_2{
 		display: none;
 	}
-	.product_photo{
-		height: 520px;
+	.logo{
+		margin-top: 20px;
 	}
+	.content p{
+		width: 100%;
+	}
+	.content_button{
+		float: right;
+	}
+
 }
